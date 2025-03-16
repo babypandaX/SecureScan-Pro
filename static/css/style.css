@@ -1,0 +1,30 @@
+.dark-theme {
+    background: #1a1b25;
+    color: #ffffff;
+    min-height: 100vh;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(12px);
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+}
+
+#scanInput {
+    background: rgba(255, 255, 255, 0.08);
+    color: white !important;
+    border: none;
+    padding: 1rem;
+}
+
+.btn-primary {
+    background: #00b4d8;
+    border: none;
+    padding: 1rem 2rem;
+}
+
+.btn-primary:hover {
+    background: #0096c7;
+}
